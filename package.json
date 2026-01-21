@@ -1,0 +1,58 @@
+{
+  "name": "retro-audio-engine",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Web Audio API sound synthesizer for retro game sound effects - phasers, explosions, alerts, and more",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "check": "tsc --noEmit",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "audio",
+    "sound",
+    "synthesizer",
+    "web-audio",
+    "game-audio",
+    "retro",
+    "sound-effects",
+    "sfx",
+    "game-dev",
+    "procedural-audio",
+    "8-bit",
+    "chiptune"
+  ],
+  "author": "Luke Steuber <luke@lukesteuber.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lukeslp/retro-audio-engine"
+  },
+  "homepage": "https://github.com/lukeslp/retro-audio-engine#readme",
+  "bugs": {
+    "url": "https://github.com/lukeslp/retro-audio-engine/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}
