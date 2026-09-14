@@ -4,9 +4,28 @@ Procedural game sound effects via Web Audio API. No external files—phasers, ex
 
 ## Installation
 
+The npm release has been unpublished; no installable registry version is
+currently available (checked September 14, 2026). Build a local package from
+source using Node.js and npm. This GitHub repository is private, so cloning
+requires an account with repository access.
+
 ```bash
-npm install retro-audio-engine
+git clone https://github.com/lukeslp/retro-audio-engine.git
+cd retro-audio-engine
+npm ci
+npm run build
+npm pack
 ```
+
+From your consuming project, install the generated archive (replace the path
+with your checkout's location):
+
+```bash
+npm install /path/to/retro-audio-engine/retro-audio-engine-1.0.0.tgz
+```
+
+The imports below work with this local installation. `npm pack` creates an
+archive on your machine; it does not publish a release.
 
 ## Quick Start
 
