@@ -1,11 +1,10 @@
+*.tgz
 node_modules/
 dist/
 *.log
 .DS_Store
-node_modules/
-node_modules/
 
-# AI tooling cruft
+# Development files
 .claude/
 CLAUDE.md
 GEMINI.md
