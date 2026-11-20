@@ -4,19 +4,14 @@ Procedural game sound effects via Web Audio API. No external files—phasers, ex
 
 ## Installation
 
-```bash
-npm install retro-audio-engine
-```
-
-If you have the versioned package archive, you can also install it directly:
+The package is not on the npm registry. Install it from this repository:
 
 ```bash
-npm install /path/to/retro-audio-engine-1.0.1.tgz
+npm install github:lukeslp/retro-audio-engine
 ```
 
-Both installation methods use the imports below and require no access to the
-private development repository. Questions or bug reports:
-[luke@lukesteuber.com](mailto:luke@lukesteuber.com).
+npm builds the TypeScript source during install. Bug reports and questions go to
+[issues](https://github.com/lukeslp/retro-audio-engine/issues).
 
 ## Quick Start
 
