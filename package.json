@@ -15,7 +15,8 @@
     "build": "tsc",
     "check": "tsc --noEmit",
     "dev": "tsc --watch",
-    "prepack": "npm run build"
+    "prepack": "npm run build",
+    "prepare": "npm run build"
   },
   "keywords": [
     "audio",
